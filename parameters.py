@@ -6,7 +6,7 @@ say_something("Hello world!") # Prints "Hello world!"
 # say_something() # Prints "Hello"
 
 # def get_boats(id=None):
-#     if id: 
+#     if id:
 #         database.getById(id)
 #     else: 
 #         database.getAll()

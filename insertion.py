@@ -1,3 +1,5 @@
+# Inserting Sort is a Comparison sorting method 
+
 def insertion_sort(arr):
     # iterate over the given array
     for i in range(1, len(arr)):
@@ -7,8 +9,8 @@ def insertion_sort(arr):
         while position > 0 and arr[position-1] > current:
             print("Swapped {} for {}".format(arr[position], arr[position-1]))
             arr[position] = arr[position-1] 
-            print(arr)
-            position -= 1 
+            print(arr)      
+            position -= 1
             
         arr[position] = current 
     return arr

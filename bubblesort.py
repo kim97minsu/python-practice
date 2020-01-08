@@ -1,4 +1,4 @@
-# Bubble sort 
+# Bubble Sort is a comparison sorting method 
 
 def bubble_sort(arr):
     n = len(arr) - 1 
@@ -14,7 +14,7 @@ def bubble_sort(arr):
                 holder = arr[i]
                 arr[i] = arr[i+1]
                 arr[i+1] = holder
-                swapped = True 
+                swapped = True
     return arr
 
 arr = [3,2,4,7,6,8,5,9,1]
